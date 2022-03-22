@@ -9,3 +9,4 @@ export const GMAIL_LINK = 'mhdadeebawad@gmail.com';
 export const CM_LINK = 'https://mtnsyr.com/App/Details/136';
 export const SP_LINK = 'http://www.sep.com.sy/';
 export const PO_LINK = 'https://github.com/AdeebAwad/my-portfolio.git';
+export const PH_NO = '+971582018865';

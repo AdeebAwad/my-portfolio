@@ -49,7 +49,7 @@ const ProjectPO = () => {
           </Box>
         </Stack>
 
-        <Flex boxSize={'sm'}>
+        <Flex order={{ base: -1, md: 1 }} boxSize={'sm'}>
           <Image
             rounded={'md'}
             alt={'Portfoilio'}

@@ -82,7 +82,7 @@ const ProjectSP = () => {
             </Button>
           </Box>
         </Stack>
-        <Flex>
+        <Flex order={{ base: -1, md: 1 }}>
           <Image rounded={'md'} alt={'Madfouat'} src={SP} objectFit={'fill'} />
         </Flex>
       </SimpleGrid>

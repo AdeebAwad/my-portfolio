@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import { EmailIcon, PhoneIcon } from '@chakra-ui/icons';
 import React from 'react';
-import { GMAIL_LINK } from '../Links';
+import { GMAIL_LINK, PH_NO } from '../Links';
 
 const Footer = () => {
   return (
@@ -30,11 +30,11 @@ const Footer = () => {
           <VStack alignItems={'left'} spacing={2}>
             <Text color={'#F5F5F5'} as={Link} href={`mailto:${GMAIL_LINK}`}>
               <EmailIcon boxSize={7} paddingBottom={'4px'} />
-              Mhdadeebawad@Gmail.com
+              {GMAIL_LINK}
             </Text>
             <Text color={'#F5F5F5'}>
               <PhoneIcon boxSize={7} paddingBottom={'4px'} />
-              +971582018865
+              {PH_NO}
             </Text>
           </VStack>
         </Flex>
